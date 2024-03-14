@@ -1,0 +1,68 @@
+.icon-inside-input {
+	position: relative;
+}
+
+.icon-inside-input .icon {
+	position: absolute;
+	top: 70%;
+	left: 20px;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+.icon-inside-input input {
+	padding-left: 50px;
+}
+
+.password-toggle-icon {
+	position: absolute;
+	right: 10px;
+	top: 70%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color: #000000;
+}
+
+/* Login page CSS */
+
+.formborder {
+	border-radius: 20px;
+	border: 2px solid black
+}
+
+/* info page CSS */
+label {
+	padding: 5px;
+
+}
+
+.first {
+	border: 2px solid black;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+
+.add {
+	padding: 30px;
+	left: 200px;
+}
+
+.leave {
+	padding: 30px;
+	left: 190px;
+}
+
+.edit {
+	padding: 30px;
+	left: 280px;
+}
+
+.user {
+	padding: 30px;
+	left: 130px;
+}
+
+.nav {
+	right: 110px;
+}
